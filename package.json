@@ -1,0 +1,21 @@
+{
+  "name": "Microscope",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "meteor-node-stubs": "^1.1.0",
+    "@popperjs/core": "^2.10.2",
+    "array-query": "^0.1.2",
+    "bootstrap-icons": "^1.7.0",
+    "popper.js": "^1.16.1",
+    "simpl-schema": "^1.12.0"
+  }
+}
